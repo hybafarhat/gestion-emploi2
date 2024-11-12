@@ -1,0 +1,63 @@
+.emploi-form-container {
+    max-width: 500px;
+    margin: auto;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .emploi-form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .emploi-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .emploi-form label {
+    display: flex;
+    align-items: center;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .emploi-form label svg {
+    margin-right: 8px;
+    color: #007bff;
+  }
+  
+  .emploi-form input[type="text"],
+  .emploi-form input[type="date"],
+  .emploi-form input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .emploi-form input[type="text"]:focus,
+  .emploi-form input[type="date"]:focus,
+  .emploi-form input[type="time"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  

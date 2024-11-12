@@ -1,0 +1,11 @@
+/* src/pages/HomePage.css */
+body {
+    background-color: #f8f9fa; /* Couleur de fond légère */
+  }
+  
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  

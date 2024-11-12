@@ -1,0 +1,27 @@
+/* src/components/EmploiDisplay.css */
+.table th, .table td {
+    vertical-align: middle;  /* Centers the text vertically */
+    text-align: center;      /* Centers the text horizontally */
+  }
+  
+  .table th {
+    background-color: #007bff; /* Blue header background */
+    color: white;  /* White text color in the header */
+  }
+  
+  .table td {
+    background-color: #f8f9fa; /* Light gray background for table cells */
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Gray background for odd rows */
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #e9ecef;  /* Light gray hover effect */
+  }
+  /* src/components/EmploiDisplay.css */
+.container img {
+  margin-bottom: 10px;
+}
+  
